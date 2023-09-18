@@ -1,0 +1,21 @@
+{
+  "cSpell.words": [
+    "Bongcheon",
+    "CAPA",
+    "Compa",
+    "Gwanak",
+    "Jungho",
+    "METHEUS",
+    "PRRP",
+    "SOLIDWORKS",
+    "STUP",
+    "swipeable",
+    "tailwindcss"
+  ],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  }
+}
