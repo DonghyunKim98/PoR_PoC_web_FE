@@ -31,7 +31,13 @@ module.exports = {
     require('@tailwindcss/typography'),
     /** @type {import('tailwindcss/types/config').PluginCreator} */
     ({ addUtilities }) => {
-      addUtilities({});
+      addUtilities({
+        '.basic_content_layout' : {
+          'max-width': '1024px',
+          'padding-left': '50px',
+          'padding-right': '50px',
+        }
+      });
     }
   ],
 }
