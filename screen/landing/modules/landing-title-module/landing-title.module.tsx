@@ -6,7 +6,7 @@ type LandingTitleModuleProps = {};
 
 export const LandingTitleModule = memo<LandingTitleModuleProps>(() => {
   return (
-    <>
+    <div className="w-full">
       <div className="flex flex-col items-center justify-center h-[60px] bg-gray-600 shadow-md ">
         <div className="basic_content_layout">
           <span className="font-semibold text-gray-500 text-700 text-[20px] leading-[20px]">
@@ -20,7 +20,7 @@ export const LandingTitleModule = memo<LandingTitleModuleProps>(() => {
           <SearchInput />
         </div>
       </div>
-    </>
+    </div>
   );
 });
 

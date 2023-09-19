@@ -1,4 +1,6 @@
-export const SearchInput = () => {
+import { memo } from 'react';
+
+export const SearchInput = memo(() => {
   return (
     <div className="flex flex-row justify-between items-center w-full border border-gray-300 rounded-md h-[60px] px-5 gap-5">
       <input
@@ -22,4 +24,6 @@ export const SearchInput = () => {
       </svg>
     </div>
   );
-};
+});
+
+SearchInput.displayName = 'SearchInput';
