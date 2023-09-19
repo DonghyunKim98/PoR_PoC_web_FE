@@ -33,6 +33,11 @@ module.exports = {
     ({ addUtilities }) => {
       addUtilities({
         '.basic_content_layout' : {
+          'width': '100%',
+          'display' : 'flex',
+          'flex-direction': 'column',
+          'align-items': 'center',
+          'justify-content': 'center',
           'max-width': '1024px',
           'padding-left': '50px',
           'padding-right': '50px',
